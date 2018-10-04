@@ -9,5 +9,7 @@ public class CardTester {
 	 */
 	public static void main(String[] args) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+		Card aceOfSpades = new Card("Ace", "Spades", 15);
+		System.out.println(aceOfSpades);
 	}
 }
