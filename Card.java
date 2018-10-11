@@ -74,6 +74,10 @@ public class Card {
 	 *         false otherwise.
 	 */
 	public boolean matches(Card otherCard) {
+		/* I would rather you call the methods, in the
+		 * spirit of these being private variables,
+		 * but this works
+		 */
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 		if (rank == otherCard.rank && pointValue == otherCard.pointValue && suit == otherCard.suit){
 			return true;
